@@ -1,0 +1,26 @@
+<ion-header>
+    <div class="status-bar">
+        <h1 class="title">{{ temaActual?.nombre || 'Repertorio' }}</h1>
+    </div>
+    <div class="header-nav">
+        <button class="nav-btn left" *ngIf="anterior" (click)="navegarA(anterior)">
+            <img src="assets/icon/arrow-back.svg" class="icon-back" alt="Volver">
+            {{ getNombreTema(anterior) }}
+        </button>
+        <div *ngIf="!anterior" class="nav-placeholder"></div>
+        
+        <button class="nav-btn right" *ngIf="siguiente" (click)="navegarA(siguiente)">
+            {{ getNombreTema(siguiente) }}
+            <img src="assets/icon/chevron-forward.svg" class="icon-forward" alt="Adelante">
+        </button>
+        <div *ngIf="!siguiente" class="nav-placeholder"></div>
+    </div>
+</ion-header>
+
+<ion-content class="ion-padding cancion-content">
+    <div class="lyrics-container">
+        <div class="lyrics-wrapper" *ngFor="let imagen of temaActual?.imagenes">
+            <img [src]="imagen" [alt]="temaActual?.nombre" class="lyrics-img" (error)="onImageError($event)" />
+        </div>
+    </div>
+</ion-content>

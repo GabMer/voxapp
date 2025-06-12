@@ -1,0 +1,19 @@
+<ion-header>
+    <div class="status-bar">
+        <img src="assets/icon/arrow-back.svg" class="icon-back" alt="Volver">
+        <h1 class="title">Repertorio</h1>
+        <div class="placeholder"></div>
+    </div>
+</ion-header>
+<ion-content class="ion-padding repertorio-content">
+    <div class="song-list">
+        <div class="song-card" *ngFor="let cancion of canciones" [routerLink]="[cancion.ruta]">
+            <img [src]="'assets/tema/' + cancion.folder + '/portada.jpg'" [alt]="cancion.nombre" class="song-img" />
+            <div class="song-details">
+                <div class="song-title">{{ cancion.nombre }}</div>
+                <div class="song-subtitle">{{ cancion.subtitulo }}</div>
+                <div class="song-chords">{{ cancion.acordes }}</div>
+            </div>
+        </div>
+    </div>
+</ion-content>

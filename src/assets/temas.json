@@ -1,0 +1,116 @@
+[
+  {
+    "nombre": "Entrada",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Re, La7, Mim, Sol, Sim, La7",
+    "ruta": "/tema/entrada",
+    "folder": "entrada",
+    "imagenes": [
+      "assets/tema/entrada/juntoscomohermanos.png",
+      "assets/tema/entrada/quealegriacuandomedijeron.png",
+      "assets/tema/entrada/vienen con alegria.png"
+    ]
+  },
+  {
+    "nombre": "Aleluya",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Do, Lam, Fa, Sol7, FaM",
+    "ruta": "/tema/aleluya",
+    "folder": "aleluya",
+    "imagenes": [
+      "assets/tema/aleluya/aleluyaseñorjesus.png"
+    ]
+  },
+  {
+    "nombre": "Comunión",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Sol, Re, Mim, Do, Mi, Si7, Dom#. Solm#, Fam#",
+    "ruta": "/tema/comunion",
+    "folder": "comunion",
+    "imagenes": [
+      "assets/tema/comunion/canciondelmisionero.png",
+      "assets/tema/comunion/milagrodeamor.png"
+    ]
+  },
+  {
+    "nombre": "Cordero",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Lam, Do, Sol7, Mi7, Mi, Fam#, Re, La",
+    "ruta": "/tema/cordero",
+    "folder": "cordero",
+    "imagenes": [
+      "assets/tema/cordero/corderodedios.png",
+      "assets/tema/cordero/corderodiosbalada.png",
+      "assets/tema/cordero/lapazesteconnosotros.png",
+      "assets/tema/cordero/paz.png"
+    ]
+  },
+  {
+    "nombre": "Evangelio",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Do, Mim, Fa, Sol7, Lam, Fam, La, La7, Re, Mi7",
+    "ruta": "/tema/evangelio",
+    "folder": "evangelio",
+    "imagenes": [
+      "assets/tema/evangelio/aclamacionevangelio.png",
+      "assets/tema/evangelio/diosestaaqui.png",
+      "assets/tema/evangelio/tupalabramedavida.png"
+    ]
+  },
+  {
+    "nombre": "Gloria",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Mi, Si7, La, Sol7, Lam, Mi7",
+    "ruta": "/tema/gloria",
+    "folder": "gloria",
+    "imagenes": [
+      "assets/tema/gloria/gloria.png",
+      "assets/tema/gloria/gloriaadios.png"
+    ]
+  },
+  {
+    "nombre": "Ofertorio",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Do, Mim, Rem, Sol7, Re, Fa#, La7",
+    "ruta": "/tema/ofertorio",
+    "folder": "ofertorio",
+    "imagenes": [
+      "assets/tema/ofertorio/recibeohdios.png",
+      "assets/tema/ofertorio/tepresentamos.png",
+      "assets/tema/ofertorio/unaespiga.png"
+    ]
+  },
+  {
+    "nombre": "Perdón",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Do, Sol7, LaM, Fa, Re, Sol, Lam",
+    "ruta": "/tema/perdon",
+    "folder": "perdon",
+    "imagenes": [
+      "assets/tema/perdon/hoyperdoname.png",
+      "assets/tema/perdon/tenpiedaddemi.png",
+      "assets/tema/perdon/zambadelperdon.png"
+    ]
+  },
+  {
+    "nombre": "Santo",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Lam, Rem, Sol7, Do, Mi7",
+    "ruta": "/tema/santo",
+    "folder": "santo",
+    "imagenes": [
+      "assets/tema/santo/santo.png"
+    ]
+  },
+  {
+    "nombre": "Salida",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": " Mi, La, Si7",
+    "ruta": "/tema/salida",
+    "folder": "salida",
+    "imagenes": [
+      "assets/tema/salida/diostesalvemaria.png",
+      "assets/tema/salida/santamariadelcamino.png"
+    ]
+  }
+]

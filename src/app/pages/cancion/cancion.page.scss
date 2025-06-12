@@ -1,0 +1,98 @@
+.status-bar {
+    padding: 16px 16px 8px;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .icon-back {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .title {
+        flex: 1;
+        font-size: 20px;
+        font-weight: 600;
+        color: #1f2937;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.header-nav {
+    padding: 0 16px 12px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-btn {
+    background: transparent;
+    border: none;
+    padding: 8px 12px;
+    color: #3b82f6;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+        color: #2563eb;
+    }
+
+    &.left {
+        padding-left: 0;
+
+        .icon-back {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    &.right {
+        padding-right: 0;
+
+        .icon-forward {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+.nav-placeholder {
+    width: 100px;
+}
+
+// El resto de tus estilos permanece igual...
+
+.cancion-content {
+    --background: #ffffff;
+}
+
+.lyrics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.lyrics-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.lyrics-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+}
