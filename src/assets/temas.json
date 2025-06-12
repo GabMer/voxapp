@@ -6,9 +6,32 @@
     "ruta": "/tema/entrada",
     "folder": "entrada",
     "imagenes": [
-      "assets/tema/entrada/juntoscomohermanos.png",
+      "assets/tema/entrada/vienen con alegria.png",
       "assets/tema/entrada/quealegriacuandomedijeron.png",
-      "assets/tema/entrada/vienen con alegria.png"
+      "assets/tema/entrada/juntoscomohermanos.png"
+    ]
+  },
+  {
+    "nombre": "Perdón",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Do, Sol7, LaM, Fa, Re, Sol, Lam",
+    "ruta": "/tema/perdon",
+    "folder": "perdon",
+    "imagenes": [
+      "assets/tema/perdon/hoyperdoname.png",
+      "assets/tema/perdon/zambadelperdon.png",
+      "assets/tema/perdon/tenpiedaddemi.png"
+    ]
+  },
+  {
+    "nombre": "Gloria",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Mi, Si7, La, Sol7, Lam, Mi7",
+    "ruta": "/tema/gloria",
+    "folder": "gloria",
+    "imagenes": [
+      "assets/tema/gloria/gloria.png",
+      "assets/tema/gloria/gloriaadios.png"
     ]
   },
   {
@@ -19,30 +42,6 @@
     "folder": "aleluya",
     "imagenes": [
       "assets/tema/aleluya/aleluyaseñorjesus.png"
-    ]
-  },
-  {
-    "nombre": "Comunión",
-    "subtitulo": "Pueblo de Dios",
-    "acordes": "Sol, Re, Mim, Do, Mi, Si7, Dom#. Solm#, Fam#",
-    "ruta": "/tema/comunion",
-    "folder": "comunion",
-    "imagenes": [
-      "assets/tema/comunion/canciondelmisionero.png",
-      "assets/tema/comunion/milagrodeamor.png"
-    ]
-  },
-  {
-    "nombre": "Cordero",
-    "subtitulo": "Pueblo de Dios",
-    "acordes": "Lam, Do, Sol7, Mi7, Mi, Fam#, Re, La",
-    "ruta": "/tema/cordero",
-    "folder": "cordero",
-    "imagenes": [
-      "assets/tema/cordero/corderodedios.png",
-      "assets/tema/cordero/corderodiosbalada.png",
-      "assets/tema/cordero/lapazesteconnosotros.png",
-      "assets/tema/cordero/paz.png"
     ]
   },
   {
@@ -58,38 +57,15 @@
     ]
   },
   {
-    "nombre": "Gloria",
-    "subtitulo": "Pueblo de Dios",
-    "acordes": "Mi, Si7, La, Sol7, Lam, Mi7",
-    "ruta": "/tema/gloria",
-    "folder": "gloria",
-    "imagenes": [
-      "assets/tema/gloria/gloria.png",
-      "assets/tema/gloria/gloriaadios.png"
-    ]
-  },
-  {
     "nombre": "Ofertorio",
     "subtitulo": "Pueblo de Dios",
     "acordes": "Do, Mim, Rem, Sol7, Re, Fa#, La7",
     "ruta": "/tema/ofertorio",
     "folder": "ofertorio",
     "imagenes": [
-      "assets/tema/ofertorio/recibeohdios.png",
       "assets/tema/ofertorio/tepresentamos.png",
+      "assets/tema/ofertorio/recibeohdios.png",
       "assets/tema/ofertorio/unaespiga.png"
-    ]
-  },
-  {
-    "nombre": "Perdón",
-    "subtitulo": "Pueblo de Dios",
-    "acordes": "Do, Sol7, LaM, Fa, Re, Sol, Lam",
-    "ruta": "/tema/perdon",
-    "folder": "perdon",
-    "imagenes": [
-      "assets/tema/perdon/hoyperdoname.png",
-      "assets/tema/perdon/tenpiedaddemi.png",
-      "assets/tema/perdon/zambadelperdon.png"
     ]
   },
   {
@@ -100,6 +76,30 @@
     "folder": "santo",
     "imagenes": [
       "assets/tema/santo/santo.png"
+    ]
+  },
+  {
+    "nombre": "Cordero",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Lam, Do, Sol7, Mi7, Mi, Fam#, Re, La",
+    "ruta": "/tema/cordero",
+    "folder": "cordero",
+    "imagenes": [
+      "assets/tema/cordero/corderodedios.png",
+      "assets/tema/cordero/corderodiosbalada.png",
+      "assets/tema/cordero/paz.png",
+      "assets/tema/cordero/lapazesteconnosotros.png"
+    ]
+  },
+  {
+    "nombre": "Comunión",
+    "subtitulo": "Pueblo de Dios",
+    "acordes": "Sol, Re, Mim, Do, Mi, Si7, Dom#. Solm#, Fam#",
+    "ruta": "/tema/comunion",
+    "folder": "comunion",
+    "imagenes": [
+      "assets/tema/comunion/canciondelmisionero.png",
+      "assets/tema/comunion/milagrodeamor.png"
     ]
   },
   {
